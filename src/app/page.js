@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 export default function Home() {
   return (
