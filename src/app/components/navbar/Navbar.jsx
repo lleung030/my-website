@@ -1,6 +1,8 @@
 // components/Navbar.js
 
-import Link from 'next/link';
+// import Link from 'next/link';
+import { Link } from 'react-router-dom';
+import About from '../about/About.jsx';
 
 const Navbar = () => {
   return (
@@ -13,22 +15,21 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="flex space-x-4">
-            <Link href="/" legacyBehavior>
-              <a className="text-white">Home</a>
+            <Link to="/" className='text-white'>
+              Home
             </Link>
-            <Link href="/about" legacyBehavior>
-              <a className="text-white">About</a>
+            <Link to="/about" className='text-white'>
+              About
             </Link>
-            <Link href="/game" legacyBehavior>
-              <a className="text-white">Game</a>
+            <Link to="/tictactoe" className='text-white'>
+              Tic Tac Toe Game
             </Link>
-            <Link href="/project" legacyBehavior>
-              <a className="text-white">Project</a>
+            <Link to="/pong-game" className='text-white'>
+              Pong Game
             </Link>
-            <Link href="/contact" legacyBehavior>
-              <a className="text-white">Contact</a>
+            <Link to="/projects" className='text-white'>
+              Projects
             </Link>
-
           </div>
         </div>
       </div>
