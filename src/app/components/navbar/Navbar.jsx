@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <div className="text-white text-xl font-bold">
             <Link href="/">
-              Lucas' Portfolio
+              Lucas Portfolio
             </Link>
           </div>
           <div className="flex space-x-4">
