@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       <div className="container mx-auto mt-8 p-8 bg-white rounded-lg shadow-md">
-        <h1 className="text-3xl font-bold mb-4">About Us</h1>
+        <h1 className="text-3xl font-bold mb-4">About Me</h1>
         <p className="text-gray-700 leading-7">
           Welcome to our About Us page! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
